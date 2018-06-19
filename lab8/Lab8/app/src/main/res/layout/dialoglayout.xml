@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="大吉大利，晚上刺激"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:textSize="15dp"
+            android:id="@+id/dialogname"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignBaseline="@+id/dialogname2"
+            android:layout_alignBottom="@+id/dialogname2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吴彦祖"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:id="@+id/dialogname2"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/dialogname"
+            android:layout_toEndOf="@+id/dialogname" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/dialogbirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dialogbirth2"
+            android:layout_alignBottom="@+id/dialogbirth2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="生日："
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/dialogbirth2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:textSize="15dp"
+            android:layout_toEndOf="@+id/dialogbirth"
+            android:layout_toRightOf="@+id/dialogbirth"
+            android:text="12.16" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/dialoggift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dialoggift2"
+            android:layout_alignBottom="@+id/dialoggift2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="礼物："
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/dialoggift2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:textSize="15dp"
+            android:layout_toEndOf="@+id/dialoggift"
+            android:layout_toRightOf="@+id/dialoggift"
+            android:text="hhh" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/dialogphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dialogphone2"
+            android:layout_alignBottom="@+id/dialogphone2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="电话："
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="130488"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:id="@+id/dialogphone2"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/dialogphone"
+            android:layout_toEndOf="@+id/dialogphone" />
+    </RelativeLayout>
+
+</LinearLayout>

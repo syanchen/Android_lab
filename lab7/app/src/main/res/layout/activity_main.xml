@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.lab7.MainActivity">
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="New Password"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_password"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:background="@drawable/shape"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/Clear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:background="@drawable/shape"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

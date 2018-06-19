@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="File Editor"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="1"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/file_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="1"
+        android:hint="File Name"
+         />
+
+    <EditText
+        android:id="@+id/file_content"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:ems="10"
+        android:hint="File Content Here"
+        android:gravity="top"
+        android:layout_weight="6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_password"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:background="@drawable/shape"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/Load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOAD"
+            android:background="@drawable/shape"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/Clear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLEAR"
+            android:background="@drawable/shape"
+            android:textColor="#FFFFFF"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <!--android:textColor="@color/red"-->
+</LinearLayout>
